@@ -12,7 +12,7 @@ describe('shuffleString function', () => {
     const expectedSize = factorial(inputWord.length)
 
     const result = shuffleString(inputWord)
-    
+
     expect(result.length).toEqual(expectedSize)
   })
 
@@ -21,7 +21,7 @@ describe('shuffleString function', () => {
     const expectedSize = factorial(inputWord.length - 1)
 
     const result = shuffleString(inputWord)
-    
+
     expect(result.length).toEqual(expectedSize)
   })
 })
